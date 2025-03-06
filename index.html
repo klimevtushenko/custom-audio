@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VibeStyle site</title>
+
+    <style type="text/css">
+      body {
+        background-color: black;
+        color: #fdfeff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .audio-visual {
+        display: flex;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 32px;
+      }
+
+      .audio-wire {
+        animation: animateUpDown 0.3s infinite alternate;
+        animation-play-state: paused;
+      }
+
+      .audio-wire {
+        background-color: #fdfeff;
+        border-radius: 32px;
+        width: 2px;
+        height: 45%;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+
+      /* audio {
+        display: none;
+      } */
+
+      .audio-item {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+      }
+
+      .time-display {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin-left: 12px;
+      }
+
+      .audio-button {
+        cursor: pointer;
+      }
+
+      @keyframes animateUpDown {
+        to {
+          height: 80%;
+        }
+        from {
+          height: 25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="audio-container">
+      <div class="audio-item">
+        <audio controls="">
+          <source src="/audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <div class="audio-button">
+          <img
+            alt="icon"
+            src="./play-icon.svg"
+            loading="lazy"
+            class="audio-button-img white"
+          />
+        </div>
+
+        <div class="audio-visual">
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+        </div>
+        <div class="time-display">
+          <p class="elapsed-time">0:00</p>
+          <p>/</p>
+          <p class="total-duration">0:54</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <div class="audio-item">
+        <audio controls="">
+          <source src="/audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <div class="audio-button">
+          <img
+            alt="icon"
+            src="./play-icon.svg"
+            loading="lazy"
+            class="audio-button-img white"
+          />
+        </div>
+
+        <div class="audio-visual">
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+          <div class="audio-wire"></div>
+        </div>
+        <div class="time-display">
+          <p class="elapsed-time">0:00</p>
+          <p>/</p>
+          <p class="total-duration">0:54</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const playButtons = document.querySelectorAll('.audio-button');
+
+      playButtons.forEach((button) => {
+        button.addEventListener('click', function () {
+          play(this);
+        });
+      });
+
+      const playIconSrc = './play-icon.svg?v=' + Date.now();
+      const pauseIconSrc = './pause-icon.svg?v=' + Date.now();
+
+      let audioFiles = document.querySelectorAll('.audio-container audio');
+      let audioWires = document.querySelectorAll('.audio-wire');
+      let audioIcons = document.querySelectorAll('.audio-button-img');
+
+      function initializeAudioWires() {
+        audioWires.forEach((el) => {
+          const delayNumbers = Array.from(
+            { length: 20 },
+            () => Math.floor(Math.random() * 600) + 50
+          );
+          const heightNumbers = Array.from(
+            { length: 20 },
+            () => Math.floor(Math.random() * 60) + 20
+          );
+
+          el.style.animationDelay = `${
+            delayNumbers[Math.floor(Math.random() * delayNumbers.length)]
+          }ms`;
+          el.style.height = `${
+            heightNumbers[Math.floor(Math.random() * heightNumbers.length)]
+          }%`;
+        });
+      }
+      initializeAudioWires();
+
+      function setupAudioEndEvents() {
+        audioFiles.forEach((audio) => {
+          audio.onended = function () {
+            const container = audio.parentNode;
+
+            toggleAnimation(container);
+            toggleIcons(container);
+          };
+        });
+      }
+      setupAudioEndEvents();
+
+      //Play animation, play/pause icon and play/pause audio
+      function play(audioButtonSelect) {
+        const audioContainer = audioButtonSelect.parentNode;
+        toggleAnimation(audioContainer);
+        toggleAudioPlayback(audioContainer);
+        toggleIcons(audioContainer);
+      }
+
+      audioFiles.forEach((audio) => {
+        const container = audio.closest('.audio-container');
+        const elapsedTimeElement = container.querySelector('.elapsed-time');
+        const totalDurationElement = container.querySelector('.total-duration');
+
+        // Update total duration when metadata is loaded
+        audio.addEventListener('loadedmetadata', function () {
+          totalDurationElement.textContent = formatTime(audio.duration);
+        });
+
+        // Update elapsed time during playback
+        audio.addEventListener('timeupdate', function () {
+          elapsedTimeElement.textContent = formatTime(audio.currentTime);
+        });
+
+        // Optional: Reset elapsed time on pause
+        audio.addEventListener('pause', function () {
+          if (audio.currentTime === audio.duration) {
+            elapsedTimeElement.textContent = '0:00';
+          }
+        });
+      });
+
+      //Animate selected audio, stop all other animations
+      function toggleAnimation(container) {
+        audioWires.forEach((el) => {
+          if (container.contains(el)) {
+            // prettier-ignore
+            el.style.animationPlayState = el.style.animationPlayState === 'running' ? 'paused' : 'running';
+          } else {
+            el.style.animationPlayState = 'paused';
+          }
+        });
+      }
+
+      //Play selected audio, Pause all other audios
+      function toggleAudioPlayback(container) {
+        audioFiles.forEach((el) => {
+          if (container.contains(el)) {
+            el.paused ? el.play() : el.pause();
+          } else {
+            el.pause();
+          }
+        });
+      }
+
+      // Swap play/pause Icons
+      function toggleIcons(container) {
+        audioIcons.forEach((el) => {
+          if (container.contains(el)) {
+            // prettier-ignore
+            el.src = el.src.includes('pause-icon') ? playIconSrc : pauseIconSrc;
+          } else {
+            el.src = playIconSrc;
+          }
+        });
+      }
+
+      // Format time in MM:SS
+      function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+      }
+
+      ///====
+    });
+  </script>
+</html>
